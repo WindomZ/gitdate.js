@@ -1,0 +1,27 @@
+{
+  "name": "gitdate",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "gitdate": "./bin/gitdate.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WindomZ/gitdate.js.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "date"
+  ],
+  "author": "WindomZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WindomZ/gitdate.js/issues"
+  },
+  "homepage": "https://github.com/WindomZ/gitdate.js#readme"
+}
