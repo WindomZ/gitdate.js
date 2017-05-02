@@ -1,0 +1,42 @@
+{
+  "name": "gitdate",
+  "version": "0.0.1",
+  "description": "git commit date trick",
+  "preferGlobal": true,
+  "main": "index.js",
+  "bin": {
+    "gitdate": "./bin/gitdate.js"
+  },
+  "engines": {
+    "node": ">= 0.6.x"
+  },
+  "scripts": {
+    "test": "standard && nyc --reporter=lcov --reporter=text-lcov ava",
+    "testing": "standard && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WindomZ/gitdate.js.git"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "date"
+  ],
+  "author": "WindomZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WindomZ/gitdate.js/issues"
+  },
+  "homepage": "https://github.com/WindomZ/gitdate.js#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "coveralls": "^2.13.1",
+    "nyc": "^10.3.0",
+    "standard": "*"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "shelljs": "^0.7.7"
+  }
+}
