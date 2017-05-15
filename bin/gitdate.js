@@ -25,8 +25,7 @@ program
   .action((date, options) => {
     noArgs = false
     console.log('date %j', date)
-  }
-  )
+  })
 
 program.parse(process.argv)
 
