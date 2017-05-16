@@ -1,6 +1,6 @@
 {
   "name": "gitdate",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "git commit date trick",
   "preferGlobal": true,
   "main": "index.js",
@@ -36,7 +36,10 @@
     "standard": "*"
   },
   "dependencies": {
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
+    "moment": "^2.18.1",
     "shelljs": "^0.7.7"
   }
 }
