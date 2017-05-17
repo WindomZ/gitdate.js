@@ -1,7 +1,6 @@
 # gitdate.js
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/WindomZ/gitdate.js.svg)](https://greenkeeper.io/)
-
 [![Build Status](https://travis-ci.org/WindomZ/gitdate.js.svg?branch=master)](https://travis-ci.org/WindomZ/gitdate.js)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Dependency](https://david-dm.org/WindomZ/gitdate.js.svg)](https://david-dm.org/WindomZ/gitdate.js)
@@ -54,7 +53,7 @@ $ gitdate now -M -1 -d -2 -H 3 -m 5  # now, subtract 1 month 2 days, and plus 3 
 
 ## Related
 
-[WindomZ/gitdate](https://github.com/WindomZ/gitdate) - Written in Go
+[WindomZ/gitdate](https://github.com/WindomZ/gitdate) - Written in **Go**
 
 ## License
 
