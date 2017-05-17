@@ -1,5 +1,7 @@
 # gitdate.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/WindomZ/gitdate.js.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/WindomZ/gitdate.js.svg?branch=master)](https://travis-ci.org/WindomZ/gitdate.js)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Dependency](https://david-dm.org/WindomZ/gitdate.js.svg)](https://david-dm.org/WindomZ/gitdate.js)
