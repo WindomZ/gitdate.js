@@ -1,6 +1,6 @@
 {
   "name": "gitdate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "git commit date trick",
   "preferGlobal": true,
   "main": "index.js",
@@ -8,7 +8,7 @@
     "gitdate": "./bin/gitdate.js"
   },
   "engines": {
-    "node": ">= 0.6.x"
+    "node": ">=6"
   },
   "scripts": {
     "test": "standard && nyc --reporter=lcov --reporter=text-lcov ava",
@@ -32,7 +32,7 @@
   "devDependencies": {
     "ava": "^0.19.1",
     "coveralls": "^2.13.1",
-    "nyc": "^11.0.1",
+    "nyc": "^11.0.2",
     "standard": "*"
   },
   "dependencies": {
@@ -40,6 +40,6 @@
     "colors": "^1.1.2",
     "commander": "^2.9.0",
     "moment": "^2.18.1",
-    "shelljs": "^0.7.7"
+    "shelljs": "^0.7.8"
   }
 }
