@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/WindomZ/gitdate.js#readme",
   "devDependencies": {
-    "ava": "^0.20.0",
+    "ava": "^0.21.0",
     "coveralls": "^2.13.1",
     "nyc": "^11.0.2",
     "standard": "*"
