@@ -1,4 +1,12 @@
-# gitdate.js
+```
+  _______  __  .___________. _______       ___   .___________. _______ 
+ /  _____||  | |           ||       \     /   \  |           ||   ____|
+|  |  __  |  | `---|  |----`|  .--.  |   /  ^  \ `---|  |----`|  |__   
+|  | |_ | |  |     |  |     |  |  |  |  /  /_\  \    |  |     |   __|  
+|  |__| | |  |     |  |     |  '--'  | /  _____  \   |  |     |  |____ 
+ \______| |__|     |__|     |_______/ /__/     \__\  |__|     |_______|
+                                                                       
+```
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/WindomZ/gitdate.js.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/WindomZ/gitdate.js.svg?branch=master)](https://travis-ci.org/WindomZ/gitdate.js)
@@ -13,7 +21,7 @@
 [![gitdate](https://img.shields.io/npm/v/gitdate.svg)](https://www.npmjs.com/package/gitdate)
 ![status](https://img.shields.io/badge/status-stable-green.svg)
 
-## Installation
+## Install
 
 ```bash
 npm install -g gitdate
@@ -42,7 +50,7 @@ $ gitdate -h
     <date>        two formats: '15:04' or 'now'
 ```
 
-## Example
+## Examples
 ```bash
 $ gitdate 8:22                       # 08:22 today
 $ gitdate 13:45 -d -1                # 13:45 yesterday
@@ -57,4 +65,4 @@ $ gitdate now -M -1 -d -2 -H 3 -m 5  # now, subtract 1 month 2 days, and plus 3 
 
 ## License
 
-The [MIT License](https://github.com/WindomZ/gitdate.js/blob/dev/LICENSE)
+[MIT](https://github.com/WindomZ/gitdate.js/blob/dev/LICENSE)
